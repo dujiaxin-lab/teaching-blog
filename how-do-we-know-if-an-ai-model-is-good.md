@@ -1,3 +1,11 @@
+---
+layout: post
+title: How Do We Know If an AI Model Is Actually Good?
+permalink: /how-do-we-know-if-an-ai-model-is-good/
+topic: ai
+description: A classroom discussion on benchmarks, practical comparisons, and verifying AI-generated analysis.
+keywords: artificial intelligence evaluation benchmarks data analysis models performance cost
+---
 # How Do We Know If an AI Model Is Actually Good?
 
 *AI for Data Analysis | CIS 331 — Data Analysis Tools and Techniques | November 2026*
