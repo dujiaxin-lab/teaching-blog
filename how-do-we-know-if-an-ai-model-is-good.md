@@ -130,6 +130,27 @@ For data analysis, I come back to three questions: **Is it correct? Is it useful
 AI can generate an answer. Our job is to decide whether the evidence supports it.
 
 ---
+## Want to Go Further? Recent Research on AI Evaluation
+
+AI evaluation is an active research area, and many of the questions we discussed in class remain open. If you're curious about how researchers are tackling these problems, here are a few recent papers worth exploring.
+
+You don't need to understand every technical detail. Start with the introduction, look at the figures, and try to identify the problem each paper is trying to solve.
+
+1. **When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation (2026)**  
+   What happens when AI models become so good at a benchmark that it can no longer distinguish between them? This paper examines why benchmarks lose their usefulness over time.
+
+2. **SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks (2026)**  
+   How can we tell whether adding a new tool or skill actually improves an AI agent? This paper explores controlled comparisons, an idea closely related to our classroom experiment.
+
+3. **Nine Judges, Two Effective Votes: Correlated Errors Undermine LLM Evaluation Panels (2026)**  
+   If nine AI models agree on an answer, should we trust it? This paper investigates why multiple AI judges can still make the same mistakes.
+
+4. **Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents (2026)**  
+   When an AI agent can use tools, modify files, and interact with software, checking its final answer isn't enough. This paper explores how to evaluate both what an agent accomplishes and what it does along the way.
+
+For more, see [Top 10 Eval Papers of 2026](https://www.google.com/search?q=%22My+Top+10+Eval+Papers+of+2026%22), a curated reading list covering these and other evaluation challenges.
+
+**A question to think about:** If you were designing a benchmark to evaluate AI for data analysis, what would you test that existing leaderboards might miss?
 
 ### Further Reading
 
