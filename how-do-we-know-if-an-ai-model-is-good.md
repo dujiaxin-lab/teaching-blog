@@ -8,7 +8,7 @@ keywords: artificial intelligence evaluation benchmarks data analysis models per
 ---
 # How Do We Know If an AI Model Is Actually Good?
 
-*AI for Data Analysis | CIS 331 — Data Analysis Tools and Techniques | November 2026*
+*AI for Data Analysis \| CIS 331 — Data Analysis Tools and Techniques \| November 2026*
 
 Every week, it seems, another AI model arrives with a claim: better reasoning, better coding, faster answers. But how do we know whether it's actually better?
 
