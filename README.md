@@ -1,10 +1,10 @@
 # Fieldnotes
 
-An open, static journal for teaching materials about AI and data science by Dr. Jiaxin Du. It is built with plain HTML, CSS, and JavaScript, so it can be hosted directly with GitHub Pages and needs no build step or dependencies.
+An open journal for teaching materials about AI and data science by Dr. Jiaxin Du. GitHub Pages uses Jekyll to render Markdown articles as static pages.
 
 ## Preview locally
 
-Open `index.html` in a browser, or serve the repository root with any static file server.
+Install Ruby and the [GitHub Pages gem](https://github.com/github/pages-gem), then run `jekyll serve --baseurl ""` from the repository root and visit the local address it prints. Opening `index.html` directly will not render the Jekyll includes or Markdown articles.
 
 ## Publish with GitHub Pages
 
@@ -12,4 +12,24 @@ In the repository settings, open **Pages**, select **Deploy from a branch**, and
 
 ## Add a note
 
-In `index.html`, duplicate one of the `<details class="post-card">` elements inside `#post-list`. Set its `data-topic` to `ai` or `data`, add useful words to `data-search`, and update the title, summary, category, reading time, and article body. Keep the topic values aligned with the filter buttons so search and topic filters continue to work.
+Create a Markdown file in the repository root with front matter like:
+
+```yaml
+---
+layout: post
+title: Your article title
+permalink: /your-article-slug/
+topic: ai
+description: A short description of the article.
+---
+```
+
+Write the article below the front matter, starting with a Markdown `#` heading. It will appear on the homepage automatically; there is no need to edit HTML. Set `topic` to `ai` or `data` for the topic filters. The `permalink`, `topic`, and `description` are optional; add `keywords` if you want extra terms to match the homepage search, which searches the title, description, and keywords rather than the full article.
+
+Articles are ordinary Markdown with YAML metadata, which many publishing tools support. The `layout` and `permalink` fields are specific to Jekyll; other platforms may require different metadata or URLs.
+
+## Analytics
+
+Google Analytics 4 is configured with measurement ID `G-CBKKYLR87W` on the homepage and Markdown article pages. After publishing, use the associated Google Analytics property to see page views, approximate visitor locations, and traffic acquisition sources. Data starts collecting after deployment; reports can be delayed, and blockers or privacy settings may prevent some visits from being counted.
+
+Google Analytics uses cookies and sends visitor data to Google. Review applicable privacy and consent requirements before publishing; the site does not currently provide a consent banner.
